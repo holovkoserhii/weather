@@ -1,0 +1,195 @@
+h1,
+h3,
+p,
+a {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+.ukraine-background {
+  display: inline-block;
+  max-width: calc(100vw - 30px);
+  max-height: 80vh;
+  position: relative;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(50, 18, 139);
+  transform: translate(-50%, 0);
+}
+
+img {
+  display: block;
+  max-width: calc(100vw - 30px);
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+}
+
+.on-map {
+  position: absolute;
+  line-height: 15px;
+}
+
+.cities-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(100vw - 30px);
+  flex-wrap: wrap;
+}
+
+.cities-list h3 {
+  text-align: left;
+}
+
+.cities-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts a {
+  color: black;
+  font-size: 12px;
+}
+
+.vinnytsia {
+  top: 40%;
+  left: 37%;
+}
+
+.dnipro {
+  top: 44%;
+  left: 71%;
+}
+
+.donetsk {
+  top: 47%;
+  left: 87%;
+}
+
+.zhytomyr {
+  top: 23%;
+  left: 37%;
+}
+
+.zaporizhzhia {
+  top: 56%;
+  left: 74%;
+}
+
+.ivano-frankivsk {
+  top: 35%;
+  left: 15%;
+}
+
+.kyiv {
+  top: 26.5%;
+  left: 47%;
+}
+
+.kropyvnytskyi {
+  top: 48%;
+  left: 55%;
+}
+
+.luhansk {
+  top: 39%;
+  left: 93%;
+}
+
+.lutsk {
+  top: 16%;
+  left: 19%;
+}
+
+.lviv {
+  top: 26%;
+  left: 12%;
+}
+
+.mykolaiv {
+  top: 63%;
+  left: 56%;
+}
+
+.odesa {
+  top: 69%;
+  left: 47%;
+}
+
+.poltava {
+  top: 34%;
+  left: 68%;
+}
+
+.rivne {
+  top: 22%;
+  left: 23%;
+}
+
+.simferopol {
+  top: 92%;
+  left: 68%;
+}
+
+.sumy {
+  top: 18%;
+  left: 68%;
+}
+
+.ternopil {
+  top: 30%;
+  left: 20%;
+}
+
+.uzhhorod {
+  top: 43%;
+  left: 5%;
+}
+
+.kharkiv {
+  top: 29%;
+  left: 78%;
+}
+
+.kherson {
+  top: 71%;
+  left: 63%;
+}
+
+.khmelnytskyi {
+  top: 33%;
+  left: 30%;
+}
+
+.cherkasy {
+  top: 38%;
+  left: 55%;
+}
+
+.chernivtsi {
+  top: 46%;
+  left: 20%;
+}
+
+.chernihiv {
+  top: 14%;
+  left: 53%;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .on-map {
+    font-size: 16px;
+    line-height: 11px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .on-map {
+    font-size: 12px;
+    line-height: 8px;
+  }
+}

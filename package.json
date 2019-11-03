@@ -1,0 +1,19 @@
+{
+  "name": "weather-bot-landing-page",
+  "version": "1.0.0",
+  "description": "Weather bot landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holovkoserhii/weather-bot-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holovkoserhii/weather-bot-landing-page/issues"
+  },
+  "homepage": "https://github.com/holovkoserhii/weather-bot-landing-page#readme"
+}
